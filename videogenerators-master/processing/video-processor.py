@@ -54,8 +54,8 @@ def speech_to_text(audio, outputfile):
         #from expertai import client
         import json 
 
-        os.environ["EAI_USERNAME"] = "selin2ky@gmail.com"
-        os.environ["EAI_PASSWORD"] = "C@cikamuz10"
+        os.environ["EAI_USERNAME"] = "@@@@@@@"
+        os.environ["EAI_PASSWORD"] = "#######"
 
         text = open(filename + ".txt").read()
 
@@ -82,7 +82,7 @@ def speech_to_text(audio, outputfile):
 
     #loop through keywords in the list, find a video for each 
     def pullvideos(wordlist):
-        api_key = '563492ad6f91700001000001a5b04654a9b24c598f88518e7dc60859'
+        api_key = '@@@@@@@@@@'
         py_pexel = PyPexels(api_key=api_key)
         novid = False
         video_links = []
